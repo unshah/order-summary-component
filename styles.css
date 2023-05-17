@@ -1,9 +1,9 @@
-body{
-    background: hsl(225, 100%, 94%);
+.bodybg{
     background-image:url("images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-size: contain;
-}
+    background-color: hsl(225, 100%, 94%);
+} 
 
 @font-face {
     font-family: "Red Hat Display";
@@ -62,6 +62,12 @@ body{
 
 .change{
     margin: 10em 0;
+    font-weight: 700;
+}
+
+.change:hover{
+    color: hsla(245, 75%, 52%, 0.603);
+    text-decoration: none;
 }
 
 .button{
@@ -77,23 +83,26 @@ body{
     width: 90%;
     border: 0 white;
     background-color:hsl(245, 75%, 52%);
+    box-shadow: 2px 5px 10px hsla(245, 75%, 52%, 0.37);
 }
 
 .ptp:hover{
+    background-color: hsla(245, 75%, 52%, 0.603);
     box-shadow: 2px 5px 10px hsla(245, 75%, 52%, 0.37);
 }
 
 .cancel{
     text-align: center;
-    margin: 1em;
+    margin: 2em;
 }
 
 .clink{
-    color: hsl(223, 47%, 23%);
+    color: hsl(224, 23%, 55%);
     text-decoration: none;
+    font-weight: 700;
 }
 
 .clink:hover{
-    color: hsl(245, 75%, 52%);
+    color: hsl(223, 47%, 23%);
     font-weight: 700;
 }
